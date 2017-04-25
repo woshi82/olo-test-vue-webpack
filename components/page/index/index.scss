@@ -1,0 +1,18 @@
+
+
+.index {
+    transform: translateY(rem(50px));
+    box-shadow:-5px 0 5px #EEEEEE, /*左边阴影*/
+    5px 0 5px #EEEEEE, /*右边阴影*/
+    0 5px 5px #EEEEEE; /*底边阴影*/;
+    background: url('../../../assets/images/favicon.png') no-repeat;
+    p {
+        font-size: dpr(64px);
+        color: $red;
+        opacity: 0.9;
+        @include line-gradient(100%);
+    }
+    img {
+        height: rem(100px);
+    }
+}
