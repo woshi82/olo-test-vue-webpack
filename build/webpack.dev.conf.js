@@ -2,11 +2,11 @@
  * @Author: zengyanling
  * @Date: 2017-04-21 13:51:06
  * @Last Modified by: zengyanling
- * @Last Modified time: 2017-05-03 23:59:47
+ * @Last Modified time: 2017-05-04 09:42:43
  */
-/**
- * handlebars-loader
- */
+
+// handlebars-loader
+
 var merge = require('webpack-merge');
 var baseWebpackConfig = require('./webpack.base.conf');
 var HtmlWebpackPlugin = require('html-webpack-plugin');

@@ -2,11 +2,11 @@
  * @Author: zengyanling
  * @Date: 2017-04-23 22:46:46
  * @Last Modified by: zengyanling
- * @Last Modified time: 2017-05-04 09:39:44
+ * @Last Modified time: 2017-05-04 09:42:22
  */
-/**
- * vue-loader、babel-loader、 file-loader、 css-loader、sass-loader
- */
+
+// vue-loader、babel-loader、 file-loader、 css-loader、sass-loader
+
 var path = require('path');
 var webpack = require('webpack');
 var merge = require('webpack-merge');

@@ -2,7 +2,6 @@
   "name": "olo-vue-test-2",
   "version": "1.0.0",
   "description": "vue flow",
-  "main": "server/index.js",
   "type": "vue",
   "scripts": {
     "start": "node build/dev-server.js",
