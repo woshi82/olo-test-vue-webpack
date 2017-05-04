@@ -4,17 +4,17 @@
     // import vLogin from '../common/login'
     import { mapState, mapActions, mapGetters } from 'vuex'
     export default {
-        data(){
+        data: dd ()     {
             return {
                 a:11223311,
             }
         },
         created: function() {
-            console.log(22112);
+            console.log(22112)
         },
         methods: {
             a: function(){
-            }
+            },
         }
     }
 </script>

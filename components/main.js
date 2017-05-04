@@ -1,30 +1,28 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
-// import App from './App';
+import Index from 'page/index/index';
+
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
-
-var router = new VueRouter({
+const router = new VueRouter({
     routes: [
         {
             path: '/index',
-            component: require('page/index/index')
+            component: Index,
+        }, {
+            path: '*',
+            redirect: '/index',
         },
-        { path: '*', redirect: '/index' }
-    ]
+    ],
 });
 
-
-var vm = new Vue({
+new Vue({
     el: '#app',
-    router: router,
-    render: function(createElement){
-        return createElement(
-            'router-view'
-        )
-    }
+    router,
+    render(createElement) {
+        return createElement('router-view');
+    },
     // render: h => h(App)
 });
-

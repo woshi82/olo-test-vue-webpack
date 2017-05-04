@@ -15,6 +15,9 @@
 <script>
     export default {
         props: ['loading'],
-    }
+        mounted() {
+            console.log('loading');
+        },
+    };
 </script>
 <style lang="scss" src="./loading.scss"></style>

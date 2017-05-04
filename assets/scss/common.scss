@@ -1,7 +1,7 @@
 
 @import './reset.scss';
 
-$red: yellow;
+$red: red;
 @mixin line-gradient($width:1px, $height:1.3rem, $color:#dadada) {
     width: $width;
     height: $height;

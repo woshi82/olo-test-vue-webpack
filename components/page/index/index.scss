@@ -1,16 +1,15 @@
-
-
 .index {
-    transform: translateY(rem(50px));
-    box-shadow:-5px 0 5px #EEEEEE, /*左边阴影*/
-    5px 0 5px #EEEEEE, /*右边阴影*/
-    0 5px 5px #EEEEEE; /*底边阴影*/;
-    background: url('../../../assets/images/favicon.png') no-repeat;
-    p {
-        font-size: dpr(64px);
+    h1 {
+        font-size: dpr(34px);
+        line-height: rem(160px);
         color: $red;
         opacity: 0.9;
-        @include line-gradient(100%);
+        @include line-gradient(100%, rem(160px));
+    }
+    p {
+        height: rem(160px);
+        background: url('../../../assets/images/favicon.ico') no-repeat;
+
     }
     img {
         height: rem(100px);
